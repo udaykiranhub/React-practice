@@ -1,0 +1,17 @@
+
+{
+    "welcome_message": "Welcome to our website!",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "signup":"signup",
+    "Name":"Name",
+    "login":"login",
+    "languages": {
+      "en": "English",
+      "hi": "हिंदी (Hindi)",
+      "te": "తెలుగు (Telugu)"
+      
+    }
+  }
+  
