@@ -1,12 +1,8 @@
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import "./grid.css";
+import NavBar from './toggle';
 
 function Grid(){
-
-
 
     return (
 
@@ -14,7 +10,9 @@ function Grid(){
         <div className='col-xs-8 col-sm-10 col-lg-12'>
         <div className="grid-container">
         <div className="item1"> 
-        <span>Home</span> <span>Login</span> <span>SingUp</span> <span>My account</span></div>
+         <NavBar/>
+        </div>
+    
         <div className="item2">
             <h1>menu</h1>
             <h1>menu</h1>

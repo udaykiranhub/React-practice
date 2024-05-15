@@ -30,6 +30,8 @@ import UseContext from "./UseContext.js";
 import Tilting from './tilt.js';
 import Grid from './gird.js';
 
+import Navbar from './toggle.js';
+
 const Layout = () => {
   const [currentLang, setCurrentLang] = useState(i18n.language);
 
@@ -91,6 +93,9 @@ const Layout = () => {
         <li>
           <Link to="/grid">Grid</Link>
         </li>
+        <li>
+          <Link to="/nav">NavBar</Link>
+        </li>
         </ul>
 
       </nav>
@@ -148,6 +153,7 @@ function App() {
       <Route path="/map" element={<GoogleApiWraper/>}/>
       <Route path="/tilt" element={<Tilting/>}/>
       <Route path="/grid" element={<Grid/>}/>
+      <Route path="/nav" element={<Navbar/>}/>
         </Routes>
     </BrowserRouter>
   );
